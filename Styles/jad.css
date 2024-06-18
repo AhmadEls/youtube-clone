@@ -1,0 +1,14 @@
+* {
+    transition: 3s all linear;
+}
+
+
+.video-preview {
+    opacity: 0 !important;
+}
+
+.video-preview:hover {
+    scale:(1.5);
+    opacity: .8;
+}
+

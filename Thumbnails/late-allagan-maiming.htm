@@ -1,0 +1,1733 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ce2c30">
+
+        <title>Late Allagan Maiming Set | Eorzea Collection</title>
+        <meta name="description" content="Eorzea Collection is a Final Fantasy XIV glamour catalogue where you can share your personal glamours and browse through an extensive collection of looks for your character.">
+        <meta name="keywords" content="final fantasy xiv, ffxiv, glamour, eorzea, eorzea collection, catalogue" />
+
+                <meta property="og:title" content="Late Allagan Maiming Set | Eorzea Collection"/>
+        <meta property="og:image" content="https://gearsets.eorzeacollection.com/pvp/late-allagan/late-allagan-maiming/male-front.png"/>
+        <meta property="og:description" content="Check out how the Late Allagan Maiming gearset looks on Eorzea Collection!"/>
+        <meta property="og:url" content="https://ffxiv.eorzeacollection.com/gearset/late-allagan-maiming" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name " content="Eorzea Collection" />
+
+        
+                                                    <script async src='https://www.googletagmanager.com/gtag/js?id=G-SBJVS260JF'></script>
+
+                                <style>
+                    #countdown,
+                    #newCount {
+                        width: 32px;
+                        height: 32px;
+                        position: absolute;
+                        top: -40px;
+                        right: 0;
+                        border-radius: 50%;
+                        background-color: #808080;
+                        color: #FFFFFF;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        z-index: 1;
+                    }
+
+                    #pw-close-btn {
+                        display: none !important;
+                    }
+                </style>
+
+                <script>
+                    window.ramp = window.ramp || {};
+                    window.ramp.que = window.ramp.que || [];
+                    window.ramp.onPlayerReady = pwAdsOnlyCloseBtn;
+
+                    function pwAdsOnlyCloseBtn() {
+	                    function createVideoCloseButton() {
+		                    //Check if the button is already on the page.
+		                    var button = document.getElementById('countdown');
+		                    if (button) {
+			                    button.remove();
+		                    }
+
+		                    //Create the close button.
+		                    var element = document.getElementById('tyche_trendi_video_container');
+		                    var countdown = document.createElement('div');
+		                    countdown.id = 'countdown';
+		                    element.appendChild(countdown);
+
+		                    //Start ad skip timer
+		                    var elementBtn = document.getElementById('countdown')
+		                    var timeleft = 5;
+		                    var skidAdTimer = setInterval(function () {
+			                    if (timeleft <= 0) {
+				                    elementBtn.innerHTML = '<svg width="32" height="32">   <circle cx="16" cy="16" r="16" fill="grey"></circle>   <line x1="11" y1="11" x2="21" y2="21" style="stroke:rgb(255,255,255);stroke-width:3"></line>   <line x1="21" y1="11" x2="11" y2="21" style="stroke:rgb(255,255,255);stroke-width:3"></line>   </svg>';
+				                    elementBtn.style.cursor = 'pointer';
+				                    closeVideoMethod();
+				                    clearInterval(skidAdTimer);
+
+			                    } else {
+				                    elementBtn.innerHTML = timeleft;
+			                    }
+			                    timeleft -= 1;
+		                    }, 1000);
+
+
+		                    function closeVideoMethod() {
+			                    elementBtn.addEventListener('click', function () {
+				                    Bolt.removeVideo('tyche_trendi_video', true)
+				                    element.style.display = 'none';
+				                    elementBtn.remove()
+			                    })
+		                    }
+	                    }
+
+	                    createVideoCloseButton();
+
+	                    function createBottomRailCloseButton() {
+		                    //Check if the button is already on the page.
+		                    var button = document.getElementById('countdown-btm-rail');
+		                    if (button) {
+			                    button.remove();
+		                    }
+
+		                    //Create the close button.
+		                    var element = document.getElementById('pw-oop-bottom_rail');
+		                    var countdown = document.createElement('div');
+		                    countdown.id = 'countdown-btm-rail';
+		                    element.appendChild(countdown);
+
+		                    //Start ad skip timer
+		                    var elementBtn = document.getElementById('countdown-btm-rail')
+		                    elementBtn.style.position = 'absolute';
+		                    elementBtn.style.top = '10px';
+		                    elementBtn.style.right = '16px';
+							console.log('BOLT', window.ramp);
+
+		                    var timeleft = 3;
+		                    var skidAdTimer = setInterval(function () {
+			                    if (timeleft <= 0) {
+				                    elementBtn.innerHTML = '<svg width="32" height="32">   <circle cx="16" cy="16" r="16" fill="grey"></circle>   <line x1="11" y1="11" x2="21" y2="21" style="stroke:rgb(255,255,255);stroke-width:3"></line>   <line x1="21" y1="11" x2="11" y2="21" style="stroke:rgb(255,255,255);stroke-width:3"></line>   </svg>';
+				                    elementBtn.style.cursor = 'pointer';
+				                    elementBtn.style.top = '4px';
+				                    elementBtn.style.right = '4px';
+				                    closeBottomRailMethod();
+				                    clearInterval(skidAdTimer);
+			                    } else {
+				                    elementBtn.innerHTML = timeleft;
+			                    }
+			                    timeleft -= 1;
+		                    }, 1000);
+
+
+		                    function closeBottomRailMethod() {
+			                    elementBtn.addEventListener('click', function () {
+				                    element.style.display = 'none';
+				                    elementBtn.remove()
+			                    })
+		                    }
+	                    }
+
+	                    createBottomRailCloseButton();
+                    }
+                </script>
+                <script async src="//cdn.intergient.com/1024881/74047/ramp_config.js"></script>
+                <script>
+                    window._pwGA4PageviewId = ''.concat(Date.now());
+                    window.dataLayer = window.dataLayer || [];
+                    window.gtag = window.gtag || function () {
+                        dataLayer.push(arguments);
+                    };
+                    gtag('js', new Date());
+                    gtag('config', 'G-SBJVS260JF', { 'send_page_view': false });
+                    gtag(
+                        'event',
+                        'ramp_js',
+                        {
+                            'send_to': 'G-SBJVS260JF',
+                            'pageview_id': window._pwGA4PageviewId
+                        }
+                    );
+                </script>
+                    
+                <link rel="apple-touch-icon" sizes="180x180" href="/resources/v7/ec/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/resources/v7/ec/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/resources/v7/ec/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/resources/v7/ec/favicon/site.webmanifest">
+        <link rel="mask-icon" href="/resources/v7/ec/favicon/safari-pinned-tab.svg" color="#fb4b4e">
+        <meta name="apple-mobile-web-app-title" content="Eorzea Collection">
+        <meta name="application-name" content="Eorzea Collection">
+        <meta name="msapplication-TileColor" content="#fb4b4e">
+        <meta name="theme-color" content="#fb4b4e">
+
+                <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,500" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,300i,400,600" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;600" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;600&family=Source+Sans+3:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://img.finalfantasyxiv.com">
+        <link rel="preconnect" href="https://glamours.eorzeacollection.com">
+
+        <link rel="stylesheet" id="app-css" href="/build/js/eorzea-collection.a6664221.css" type="text/css" media="all">
+
+            </head>
+    <body id="top" class="">
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-4CX97EWB0R"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-4CX97EWB0R');
+        </script>
+
+        <main id="js-app">
+            <div>
+                    
+        
+<ec-v7-header inline-template>
+    <header class="navbar is-fixed-top header is-size-6" aria-label="main navigation"
+            :class="{ 'is-open': open, 'is-fixed' : fixed, 'is-hover' : hover }"
+            @mouseover="hover = true" @mouseleave="hover = false">
+        <nav class="container">
+            <div class="navbar-brand is-align-items-center is-justify-content-space-between">
+                <div class="navbar-item is-align-items-center is-justify-content-center p-0 is-hidden-desktop"
+                     style="width: 75px">
+                    <a class="button is-background header-login-button" href="/login" style="background-image: url(/resources/v7/icons/ffxiv/avatar.png); width: 40px">
+                                            </a>
+
+                                    </div>
+
+                <a class="navbar-item p-0 header-logo" href="/">
+                    <span class="header-logo-icon">
+                        <?xml version="1.0" encoding="utf-8"?>
+<svg id="icon" width="20" height="22" viewBox="0 0 30.654 25.995" xmlns="http://www.w3.org/2000/svg">
+  <g id="symbol" transform="matrix(0.357959, 0, 0, 0.357959, -2.570953, -5.06565)" style="">
+    <path d="M49.022,14.497v71.929L7.493,62.45L49.022,14.497z M50.979,86.426V14.497L92.507,62.45L50.979,86.426z" style=""/>
+  </g>
+</svg>
+                    </span>
+                    <span class="header-logo-text ml-2 is-hidden-desktop is-hidden-mobile">
+                        <?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" width="374px" height="40px" x="0px" y="0px" viewBox="0 3.021 306.536 33.622" xmlns="http://www.w3.org/2000/svg">
+  <title>Eorzea Collection</title>
+  <g id="symbol" transform="matrix(0.527817, 0, 0, 0.527817, -68.251251, -7.116225)">
+    <path d="M 163.898 34.269 L 142.625 34.269 L 142.625 47.287 L 161.476 47.287 L 161.476 57.645 L 142.625 57.645 L 142.625 70.623 L 163.898 70.623 L 163.898 81.138 L 130.642 81.138 L 130.642 23.792 L 163.898 23.792 L 163.898 34.269 Z M 187.798 81.931 C 174.82 81.931 165.455 74.035 165.455 60.701 C 165.455 47.446 174.742 39.547 187.798 39.547 C 200.933 39.547 210.181 47.446 210.181 60.701 C 210.181 74.035 200.895 81.931 187.798 81.931 Z M 187.679 72.843 C 194.306 72.843 198.83 68.002 198.83 60.699 C 198.83 53.397 194.306 48.556 187.679 48.556 C 181.288 48.556 176.804 53.397 176.804 60.699 C 176.804 68.002 181.288 72.843 187.679 72.843 Z M 223.761 46.809 C 225.826 43.198 231.182 39.864 237.096 39.864 L 237.096 50.062 C 228.445 50.062 224.318 52.603 224.318 61.254 L 224.318 81.136 L 212.809 81.136 L 212.809 40.339 L 223.761 40.339 L 223.761 46.809 Z M 267.705 40.341 L 249.767 72.328 L 267.15 72.328 L 267.15 81.138 L 233.536 81.138 L 251.394 49.151 L 234.924 49.151 L 234.924 40.341 L 267.705 40.341 Z M 308.035 60.144 L 307.916 62.883 L 277.674 62.883 C 278.151 69.668 282.674 72.923 288.111 72.923 C 292.2 72.923 295.373 71.019 296.921 67.407 L 307.398 68.953 C 304.7 77.208 297.359 81.931 288.191 81.931 C 275.016 81.931 266.403 74.152 266.403 60.738 C 266.403 47.325 275.253 39.468 287.833 39.468 C 299.382 39.468 307.993 45.856 308.033 60.144 L 308.035 60.144 Z M 287.914 47.565 C 282.716 47.565 279.104 49.985 277.992 55.422 L 296.724 55.422 C 296.129 50.223 292.598 47.565 287.914 47.565 Z M 344.316 70.066 C 344.316 75.065 344.792 78.241 345.307 80.025 L 345.307 81.138 L 334.633 81.138 L 333.72 76.693 C 330.664 80.384 325.386 81.931 320.625 81.931 C 314.194 81.931 307.925 79.074 307.925 70.581 C 307.925 62.127 314.234 59.27 322.767 57.406 L 329.474 55.898 C 332.371 55.223 333.404 54.231 333.404 52.563 C 333.404 48.556 329.751 47.444 326.538 47.444 C 322.409 47.444 319.276 49.072 318.561 53.675 L 308.44 51.849 C 310.147 43.397 316.337 39.547 327.172 39.547 C 335.347 39.547 344.316 41.969 344.316 54.27 L 344.316 70.066 Z M 324.196 74.192 C 329.633 74.192 333.999 70.581 333.999 62.485 L 324.315 65.223 C 321.14 65.977 318.838 67.089 318.838 69.827 C 318.838 72.763 321.259 74.192 324.196 74.192 Z M 391.719 81.931 C 374.854 81.931 362.391 70.462 362.391 52.444 C 362.391 34.426 374.852 22.998 391.719 22.998 C 404.498 22.998 414.737 29.546 418.825 40.421 L 407.714 44.468 C 405.173 37.801 399.101 33.951 391.719 33.951 C 381.837 33.951 374.259 40.857 374.259 52.444 C 374.259 64.033 381.837 70.979 391.719 70.979 C 399.101 70.979 405.173 67.089 407.714 60.422 L 418.825 64.469 C 414.737 75.344 404.498 81.931 391.719 81.931 Z M 440.227 81.931 C 427.249 81.931 417.884 74.035 417.884 60.701 C 417.884 47.446 427.169 39.547 440.227 39.547 C 453.362 39.547 462.609 47.446 462.609 60.701 C 462.609 74.035 453.324 81.931 440.227 81.931 Z M 440.107 72.843 C 446.735 72.843 451.259 68.002 451.259 60.699 C 451.259 53.397 446.735 48.556 440.107 48.556 C 433.717 48.556 429.232 53.397 429.232 60.699 C 429.232 68.002 433.717 72.843 440.107 72.843 Z M 465.237 81.138 L 465.237 20.181 L 476.785 20.181 L 476.785 81.138 L 465.237 81.138 Z M 482.749 81.138 L 482.749 20.181 L 494.297 20.181 L 494.297 81.138 L 482.749 81.138 Z M 538.636 60.144 L 538.517 62.883 L 508.275 62.883 C 508.752 69.668 513.277 72.923 518.712 72.923 C 522.801 72.923 525.976 71.019 527.522 67.407 L 537.999 68.953 C 535.301 77.208 527.96 81.931 518.792 81.931 C 505.617 81.931 497.004 74.152 497.004 60.738 C 497.004 47.325 505.854 39.468 518.436 39.468 C 529.983 39.468 538.594 45.856 538.634 60.144 L 538.636 60.144 Z M 518.515 47.565 C 513.317 47.565 509.705 49.985 508.595 55.422 L 527.325 55.422 C 526.73 50.223 523.199 47.565 518.515 47.565 Z M 559.916 81.892 C 547.097 81.892 538.049 73.358 538.049 60.699 C 538.049 47.999 547.097 39.547 559.916 39.547 C 570.234 39.547 577.973 44.905 579.957 54.549 L 569.4 55.699 C 568.131 50.818 564.599 48.556 559.797 48.556 C 553.645 48.556 549.479 53.397 549.479 60.699 C 549.479 67.963 553.645 72.843 559.797 72.843 C 564.599 72.843 568.131 70.541 569.4 65.7 L 579.957 66.85 C 577.973 76.494 570.035 81.892 559.916 81.892 Z M 597.429 81.138 C 589.493 81.138 584.968 76.534 584.968 68.398 L 584.968 49.111 L 576.952 49.111 L 576.952 40.341 L 579.531 40.341 C 583.858 40.341 586.238 38.674 586.238 32.562 L 586.238 27.166 L 596.556 27.166 L 596.556 40.341 L 604.97 40.341 L 604.97 49.111 L 596.556 49.111 L 596.556 67.169 C 596.556 70.82 598.342 72.447 601.279 72.447 L 604.97 72.447 L 604.97 81.138 L 597.429 81.138 Z M 613.789 34.229 C 610.178 34.229 607.162 31.293 607.162 27.642 C 607.162 24.031 610.178 21.094 613.789 21.094 C 617.32 21.094 620.337 24.031 620.337 27.642 C 620.337 31.293 617.32 34.229 613.789 34.229 Z M 607.955 81.138 L 607.955 40.341 L 619.465 40.341 L 619.465 81.138 L 607.955 81.138 Z M 644.438 81.931 C 631.46 81.931 622.095 74.035 622.095 60.701 C 622.095 47.446 631.38 39.547 644.438 39.547 C 657.573 39.547 666.821 47.446 666.821 60.701 C 666.821 74.035 657.533 81.931 644.438 81.931 Z M 644.317 72.843 C 650.944 72.843 655.468 68.002 655.468 60.699 C 655.468 53.397 650.944 48.556 644.317 48.556 C 637.928 48.556 633.443 53.397 633.443 60.699 C 633.443 68.002 637.928 72.843 644.317 72.843 Z M 693.538 39.547 C 703.339 39.547 708.737 44.627 708.737 53.675 L 708.737 81.138 L 697.269 81.138 L 697.269 56.135 C 697.269 50.699 693.894 48.713 689.965 48.713 C 685.244 48.713 680.958 51.095 680.879 58.635 L 680.879 81.136 L 669.448 81.136 L 669.448 40.341 L 680.879 40.341 L 680.879 44.866 C 683.736 41.491 688.141 39.547 693.538 39.547 Z" style=""/>
+  </g>
+</svg>
+                    </span>
+                </a>
+
+                <div class="navbar-burger burger ml-0" :class="{ 'is-active': open}" data-target="ecHeader" role="button" aria-label="menu" aria-expanded="false" @click="toggleHeader">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </div>
+            </div>
+
+            <div id="ecHeader" class="navbar-menu" :class="{ 'is-active': open}">
+                <div class="navbar-start">
+                    <div class="navbar-item has-dropdown is-hoverable is-mega">
+                        <div class="navbar-link" @click="toggleDropdown">
+                            <a class="has-text-text is-hidden-touch" href="/glamours">Glamours</a>
+                            <span class="is-hidden-desktop">Glamours</span>
+                        </div>
+                        <div class="navbar-dropdown py-4">
+                                                        <div class="is-hidden-tablet">
+                                <div class="columns is-mobile is-multiline is-centered mt-2 mx-4">
+                                                                        <a class="column is-narrow" href="/glamour/submit">
+                                        <img style="max-height: 100%" src="/resources/v7/pages/header/banner-submit-glamour.png" alt="Submit your own glamour">
+                                    </a>
+                                </div>
+                                <a href="/about/rules-and-guidelines" class="button is-background-dark is-small mb-4" style="width: 100%">Rules and guidelines</a>
+                                <a class="navbar-item" href="/glamours">Latest Glamours</a>
+                                <a class="navbar-item" href="/glamours/loved">Most Loved</a>
+                                                                <a class="navbar-item" href="/glamours/women">For Female Characters</a>
+                                <a class="navbar-item" href="/glamours/men">For Male Characters</a>
+                            </div>
+                                                        <div class="container is-fluid is-hidden-mobile">
+                                <div class="columns">
+                                    <div class="column is-narrow-touch">
+                                        <div class="header-glamour-images px-0 mt-2">
+                                                                                        <a class="is-block" href="/glamour/submit">
+                                                <img style="max-height: 100%" src="/resources/v7/pages/header/banner-submit-glamour.png" alt="Submit your own glamour">
+                                            </a>
+                                        </div>
+                                        <a href="/about/rules-and-guidelines" class="mt-2 button is-background-dark is-small" style="width: 100%">Rules and guidelines</a>
+                                    </div>
+                                    <div class="column is-narrow-touch">
+                                        <h1 class="minititle is-mega-menu-title">Browse all</h1>
+                                        <a class="navbar-item" href="/glamours">Latest Glamours</a>
+                                        <a class="navbar-item" href="/glamours/loved">Most Loved</a>
+                                                                                <hr class="navbar-divider">
+                                        <a class="navbar-item" href="/glamours/novice">Low-level</a>
+                                        <a class="navbar-item" href="/glamours?filter%5BmaximumLvl%5D=70">Up to Free Trial</a>
+                                        <a class="navbar-item" href="/glamours?filter%5BmaximumLvl%5D=80">Up to Level 80</a>
+                                        <hr class="navbar-divider">
+                                        <a class="navbar-item" href="/glamours/throwback">Submitted 3 Years Ago</a>
+                                    </div>
+                                    <div class="column is-narrow-touch">
+                                        <h1 class="minititle is-mega-menu-title">By Role</h1>
+                                        <a class="navbar-item" href="/glamours/tanks">
+                                            <span class="icon-text">
+                                                <span class="icon"><img src="/resources/v7/icons/ffxiv/jobs/role-tank.png" alt="Tanks"></span>
+                                                <span>Tanks</span>
+                                            </span>
+                                        </a>
+                                        <a class="navbar-item" href="/glamours/healers">
+                                            <span class="icon-text">
+                                                <span class="icon"><img src="/resources/v7/icons/ffxiv/jobs/role-healer.png" alt="Healers"></span>
+                                                <span>Healers</span>
+                                            </span>
+                                        </a>
+                                        <a class="navbar-item" href="/glamours/melee">
+                                            <span class="icon-text">
+                                                <span class="icon"><img src="/resources/v7/icons/ffxiv/jobs/role-melee.png" alt="Melee DPS"></span>
+                                                <span>Melee DPS</span>
+                                            </span>
+                                        </a>
+                                        <a class="navbar-item" href="/glamours/ranged">
+                                            <span class="icon-text">
+                                                <span class="icon"><img src="/resources/v7/icons/ffxiv/jobs/role-ranged.png" alt="Ranged DPS"></span>
+                                                <span>Ranged DPS</span>
+                                            </span>
+                                        </a>
+                                        <a class="navbar-item" href="/glamours/casters">
+                                            <span class="icon-text">
+                                                <span class="icon"><img src="/resources/v7/icons/ffxiv/jobs/role-caster.png" alt="Caster DPS"></span>
+                                                <span>Caster DPS</span>
+                                            </span>
+                                        </a>
+                                        <a class="navbar-item" href="/glamours/craft">
+                                            <span class="icon-text">
+                                                <span class="icon"><img src="/resources/v7/icons/ffxiv/jobs/role-crafter.png" alt="Crafters"></span>
+                                                <span>Crafters</span>
+                                            </span>
+                                        </a>
+                                        <a class="navbar-item" href="/glamours/gather">
+                                            <span class="icon-text">
+                                                <span class="icon"><img src="/resources/v7/icons/ffxiv/jobs/role-gatherer.png" alt="Gatherers"></span>
+                                                <span>Gatherers</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="column is-narrow-touch">
+                                        <h1 class="minititle is-mega-menu-title">By Gender</h1>
+                                        <a class="navbar-item" href="/glamours/women">
+                                            <span class="icon-text">
+                                                <span class="icon"><img src="/resources/v7/icons/genders/gender-female.png" alt="Female"></span>
+                                                <span>Female</span>
+                                            </span>
+                                        </a>
+                                        <a class="navbar-item" href="/glamours/men">
+                                            <span class="icon-text">
+                                                <span class="icon"><img src="/resources/v7/icons/genders/gender-male.png" alt="Male"></span>
+                                                <span>Male</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="column is-narrow-touch is-hidden-touch">
+                                        <h1 class="minititle is-mega-menu-title">By Race</h1>
+                                        <a class="navbar-item" href="/glamours/hyur">
+                                            <span class="icon-text">
+                                                <span class="icon"><img src="/resources/v7/icons/races/race-hyur.png" alt="Hyur Midlander"></span>
+                                                <span>Hyur Midlander</span>
+                                            </span>
+                                        </a>
+                                        <a class="navbar-item" href="/glamours/highlander">
+                                            <span class="icon-text">
+                                                <span class="icon"><img src="/resources/v7/icons/races/race-highlander.png" alt="Highlander"></span>
+                                                <span>Highlander</span>
+                                            </span>
+                                        </a>
+                                        <a class="navbar-item" href="/glamours/elezen">
+                                            <span class="icon-text">
+                                                <span class="icon"><img src="/resources/v7/icons/races/race-elezen-female.png" alt="Elezen"></span>
+                                                <span>Elezen</span>
+                                            </span>
+                                        </a>
+                                        <a class="navbar-item" href="/glamours/miqote">
+                                            <span class="icon-text">
+                                                <span class="icon"><img src="/resources/v7/icons/races/race-miqote-female.png" alt="Miqo'te"></span>
+                                                <span>Miqo'te</span>
+                                            </span>
+                                        </a>
+                                        <a class="navbar-item" href="/glamours/lalafell">
+                                            <span class="icon-text">
+                                                <span class="icon"><img src="/resources/v7/icons/races/race-lalafell.png" alt="Lalafell"></span>
+                                                <span>Lalafell</span>
+                                            </span>
+                                        </a>
+                                        <a class="navbar-item" href="/glamours/roegadyn">
+                                            <span class="icon-text">
+                                                <span class="icon"><img src="/resources/v7/icons/races/race-roegadyn.png" alt="Roegadyn"></span>
+                                                <span>Roegadyn</span>
+                                            </span>
+                                        </a>
+                                        <a class="navbar-item" href="/glamours/aura">
+                                            <span class="icon-text">
+                                                <span class="icon"><img src="/resources/v7/icons/races/race-aura-female.png" alt="Au Ra"></span>
+                                                <span>Au Ra</span>
+                                            </span>
+                                        </a>
+                                        <a class="navbar-item" href="/glamours/viera">
+                                            <span class="icon-text">
+                                                <span class="icon"><img src="/resources/v7/icons/races/race-viera-female.png" alt="Viera"></span>
+                                                <span>Viera</span>
+                                            </span>
+                                        </a>
+                                        <a class="navbar-item" href="/glamours/hrothgar">
+                                            <span class="icon-text">
+                                                <span class="icon"><img src="/resources/v7/icons/races/race-hrothgar.png" alt="Hrothgar"></span>
+                                                <span>Hrothgar</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="column is-narrow-touch is-hidden-touch is-hidden-desktop-only">
+                                        <h1 class="minititle is-mega-menu-title">By Tag</h1>
+                                        <a class="navbar-item" href="/glamours?filter%5Bcolor%5D=41"><span style="width: 100%" class="tag m-0 is-dark">Black</span></a>
+                                        <a class="navbar-item" href="/glamours?filter%5Bcolor%5D=49"><span style="width: 100%" class="tag m-0 is-white">White</span></a>
+                                        <a class="navbar-item" href="/glamours?filter%5Bcolor%5D=48"><span style="width: 100%" class="tag m-0 is-secondary">Red</span></a>
+                                        <a class="navbar-item" href="/glamours?filter%5Bclassification%5D=2"><span style="width: 100%" class="tag m-0 is-success">Cool</span></a>
+                                        <a class="navbar-item" href="/glamours?filter%5Bclassification%5D=3"><span style="width: 100%" class="tag m-0 is-danger">Cute</span></a>
+                                        <a class="navbar-item" href="/glamours?filter%5Bclassification%5D=5"><span style="width: 100%" class="tag m-0 is-light">Elegant</span></a>
+                                        <a class="navbar-item" href="/glamours?filter%5Bstyle%5D=84"><span style="width: 100%" class="tag m-0 is-info">Fantasy</span></a>
+                                        <a class="navbar-item" href="/glamours?filter%5Btheme%5D=20"><span style="width: 100%" class="tag m-0 is-primary">Battle</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="navbar-item has-dropdown is-hoverable is-mega">
+                        <div class="navbar-link" @click="toggleDropdown">
+                            <a class="has-text-text is-hidden-touch" href="/gearsets">Gearsets</a>
+                            <span class="is-hidden-desktop">Gearsets</span>
+                        </div>
+                        <div class="navbar-dropdown py-4">
+                                                        <div class="is-hidden-tablet">
+                                <div class="level is-mobile mx-2">
+                                    <a class="m-1" href="/gearsets">
+                                        <img style="max-height: 100%" src="/resources/v7/pages/header/banner-entire-set.png" alt="Entire Sets">
+                                    </a>
+                                    <a class="m-1" href="/gearsets?piece=head">
+                                        <img style="max-height: 100%" src="/resources/v7/pages/header/banner-head-piece.png" alt="Head pieces">
+                                    </a>
+                                    <a class="m-1" href="/gearsets?piece=body">
+                                        <img style="max-height: 100%" src="/resources/v7/pages/header/banner-body-piece.png" alt="Body pieces">
+                                    </a>
+                                    <a class="m-1" href="/gearsets?piece=hands">
+                                        <img style="max-height: 100%" src="/resources/v7/pages/header/banner-hands-piece.png" alt="Hands pieces">
+                                    </a>
+                                    <a class="m-1" href="/gearsets?piece=legs">
+                                        <img style="max-height: 100%" src="/resources/v7/pages/header/banner-legs-piece.png" alt="Legs pieces">
+                                    </a>
+                                    <a class="m-1" href="/gearsets?piece=feet">
+                                        <img style="max-height: 100%" src="/resources/v7/pages/header/banner-feet-piece.png" alt="Feet pieces">
+                                    </a>
+                                </div>
+                                <a class="navbar-item" href="/gearsets">Latest Gearsets</a>
+                                <a class="navbar-item" href="/gearsets/latest">From the latest Patch</a>
+                                <a class="navbar-item" href="/gearsets?patch=6.0">From Endwalker</a>
+                            </div>
+                                                        <div class="container is-fluid is-hidden-mobile">
+                                <div class="columns is-multiline">
+                                    <div class="column">
+                                        <div class="columns is-variable is-1">
+                                            <div class="column is-half" style="max-width: 105px;">
+                                                <a class="is-block mb-1" href="/gearsets">
+                                                    <img style="max-height: 100%" src="/resources/v7/pages/header/banner-entire-set.png" alt="Entire Sets">
+                                                </a>
+                                                <a class="is-block mb-1" href="/gearsets?piece=head">
+                                                    <img style="max-height: 100%" src="/resources/v7/pages/header/banner-head-piece.png" alt="Head pieces">
+                                                </a>
+                                                <a class="is-block" href="/gearsets?piece=legs">
+                                                    <img style="max-height: 100%" src="/resources/v7/pages/header/banner-legs-piece.png" alt="Legs pieces">
+                                                </a>
+                                            </div>
+                                            <div class="column is-half" style="max-width: 105px;">
+                                                <a class="is-block mb-1" href="/gearsets?piece=body">
+                                                    <img style="max-height: 100%" src="/resources/v7/pages/header/banner-body-piece.png" alt="Body pieces">
+                                                </a>
+                                                <a class="is-block mb-1" href="/gearsets?piece=hands">
+                                                    <img style="max-height: 100%" src="/resources/v7/pages/header/banner-hands-piece.png" alt="Hands pieces">
+                                                </a>
+                                                <a class="is-block" href="/gearsets?piece=feet">
+                                                    <img style="max-height: 100%" src="/resources/v7/pages/header/banner-feet-piece.png" alt="Feet pieces">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="column is-narrow-touch">
+                                        <h1 class="minititle is-mega-menu-title">Browse all</h1>
+                                        <a class="navbar-item" href="/gearsets">Latest Gearsets</a>
+                                        <a class="navbar-item" href="/gearsets?orderBy=loves">Most Loved</a>
+                                        <hr class="navbar-divider">
+                                        <a class="navbar-item" href="/gearsets/latest">Latest Patch</a>
+                                        <a class="navbar-item" href="/gearsets?patch=6.0">This Expansion</a>
+                                        <hr class="navbar-divider">
+                                        <a class="navbar-item" href="/gearsets?orderBy=ilvl&amp;maximumLvl=49">Low-level</a>
+                                        <a class="navbar-item" href="/gearsets?orderBy=ilvl&amp;maximumLvl=70">Up to Free Trial</a>
+                                        <a class="navbar-item" href="/gearsets?orderBy=ilvl&amp;maximumLvl=80">Up to Level 80</a>
+                                    </div>
+                                    <div class="column is-narrow-touch">
+                                        <h1 class="minititle is-mega-menu-title">By Role</h1>
+                                        <a class="navbar-item" href="/gearsets/tanks">
+                                            <span class="icon-text">
+                                                <span class="icon"><img src="/resources/v7/icons/ffxiv/jobs/role-tank.png" alt="Tanks"></span>
+                                                <span>Tanks</span>
+                                            </span>
+                                        </a>
+                                        <a class="navbar-item" href="/gearsets/healers">
+                                            <span class="icon-text">
+                                                <span class="icon"><img src="/resources/v7/icons/ffxiv/jobs/role-healer.png" alt="Healers"></span>
+                                                <span>Healers</span>
+                                            </span>
+                                        </a>
+                                        <a class="navbar-item" href="/gearsets/melee">
+                                            <span class="icon-text">
+                                                <span class="icon"><img src="/resources/v7/icons/ffxiv/jobs/role-melee.png" alt="Melee DPS"></span>
+                                                <span>Melee DPS</span>
+                                            </span>
+                                        </a>
+                                        <a class="navbar-item" href="/gearsets/ranged">
+                                            <span class="icon-text">
+                                                <span class="icon"><img src="/resources/v7/icons/ffxiv/jobs/role-ranged.png" alt="Ranged DPS"></span>
+                                                <span>Ranged DPS</span>
+                                            </span>
+                                        </a>
+                                        <a class="navbar-item" href="/gearsets/casters">
+                                            <span class="icon-text">
+                                                <span class="icon"><img src="/resources/v7/icons/ffxiv/jobs/role-caster.png" alt="Caster DPS"></span>
+                                                <span>Caster DPS</span>
+                                            </span>
+                                        </a>
+                                        <a class="navbar-item" href="/gearsets/craft">
+                                            <span class="icon-text">
+                                                <span class="icon"><img src="/resources/v7/icons/ffxiv/jobs/role-crafter.png" alt="Crafters"></span>
+                                                <span>Crafters</span>
+                                            </span>
+                                        </a>
+                                        <a class="navbar-item" href="/gearsets/gather">
+                                            <span class="icon-text">
+                                                <span class="icon"><img src="/resources/v7/icons/ffxiv/jobs/role-gatherer.png" alt="Gatherers"></span>
+                                                <span>Gatherers</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="column is-hidden-touch is-hidden-desktop-only">
+                                        <h1 class="minititle is-mega-menu-title">By Model</h1>
+                                        <a class="navbar-item" href="/gearsets?model=female">
+                                            <span class="icon-text">
+                                                <span class="icon"><img src="/resources/v7/icons/races/race-hyur-female.png" alt="Female Midlander"></span>
+                                                <span>Female</span>
+                                            </span>
+                                        </a>
+                                        <a class="navbar-item" href="/gearsets">
+                                            <span class="icon-text">
+                                                <span class="icon"><img src="/resources/v7/icons/races/race-hyur.png" alt="Male Midlander"></span>
+                                                <span>Male</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="column is-narrow-desktop">
+                                        <h1 class="minititle is-mega-menu-title">By Content</h1>
+                                        <a class="navbar-item" href="/gearsets?contentType%5B%5D=glamour">
+                                            <span class="icon-text">
+                                                <span class="icon"><img src="/resources/v7/icons/ffxiv/content/glamour.png" alt="Crafted Glamour"></span>
+                                                <span>Crafted Glamour</span>
+                                            </span>
+                                        </a>
+                                        <a class="navbar-item" href="/gearsets?contentType%5B%5D=raid">
+                                            <span class="icon-text">
+                                                <span class="icon"><img src="/resources/v7/icons/ffxiv/content/savage.png" alt="Raid Gear"></span>
+                                                <span>Raid Gear</span>
+                                            </span>
+                                        </a>
+                                        <a class="navbar-item" href="/gearsets?contentType%5B%5D=tomes">
+                                            <span class="icon-text">
+                                                <span class="icon"><img src="/resources/v7/icons/ffxiv/content/delivery.png" alt="Female Midlander"></span>
+                                                <span>Tomestones<span class="is-hidden-widescreen-only is-hidden-tablet-only"> Exchange</span></span>
+                                            </span>
+                                        </a>
+                                        <a class="navbar-item" href="/gearsets?contentType%5B%5D=pvp">
+                                            <span class="icon-text">
+                                                <span class="icon"><img src="/resources/v7/icons/ffxiv/content/pvp.png" alt="PVP Gear"></span>
+                                                <span>PvP Gear</span>
+                                            </span>
+                                        </a>
+                                        <a class="navbar-item" href="/gearsets?contentType%5B%5D=seasonal">
+                                            <span class="icon-text">
+                                                <span class="icon"><img src="/resources/v7/icons/ffxiv/content/seasonal.png" alt="Seasonal Event Gear"></span>
+                                                <span>Seasonal Event<span class="is-hidden-widescreen-only is-hidden-tablet-only"> Gear</span></span>
+                                            </span>
+                                        </a>
+                                        <a class="navbar-item" href="/gearsets?contentType%5B%5D=mogstation">
+                                            <span class="icon-text">
+                                                <span class="icon"><img src="/resources/v7/icons/ffxiv/content/mogstation.png" alt="Mogstation Set"></span>
+                                                <span>Mogstation Set</span>
+                                            </span>
+                                        </a>
+                                        <a class="navbar-item" href="/gearsets?contentType%5B%5D=job">
+                                            <span class="icon-text">
+                                                <span class="icon"><img src="/resources/v7/icons/ffxiv/content/blue-mage.png" alt="Job Artifact Armor"></span>
+                                                <span>Job Artifact<span class="is-hidden-widescreen-only is-hidden-tablet-only"> Armor</span></span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                                        <div class="navbar-item has-dropdown is-hoverable">
+                        <div class="navbar-link" @click="toggleDropdown">Character</div>
+                        <div class="navbar-dropdown ">
+                                                        <a class="navbar-item" href="/fashion-accessories">Fashion Accessories</a>
+                                                        <a class="navbar-item" href="/dyes">Dyes</a>
+                        </div>
+                    </div>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <div class="navbar-link" @click="toggleDropdown">Chocobo</div>
+                        <div class="navbar-dropdown ">
+                            <a class="navbar-item" href="/companion-glamours">Companion Glamours</a>
+                                                        <hr class="navbar-divider" />
+                            <a class="navbar-item" href="/companion-glamour/submit">Submit Chocobo glamour</a>
+                        </div>
+                    </div>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <div class="navbar-link" @click="toggleDropdown">Eorzea</div>
+                        <div class="navbar-dropdown ">
+                            <a class="navbar-item" href="/latest-patch">Latest Patch</a>
+                                                        <a class="navbar-item" href="/news/yearly-census">Yearly Census</a>
+                        </div>
+                    </div>
+                                        <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link" @click="toggleDropdown">Articles</a>
+                        <div class="navbar-dropdown ">
+                            <a class="navbar-item" href="/news">All News</a>
+                                                        <a class="navbar-item" href="/news/patron-challenge">Patron Challenges</a>
+                            <a class="navbar-item" href="/news/interview">Community Interviews</a>
+                                                    </div>
+                    </div>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link" @click="toggleDropdown">About</a>
+                        <div class="navbar-dropdown ">
+                            <a class="navbar-item" href="/about">Eorzea Collection</a>
+                            <a class="navbar-item" href="/about/contributors">Patrons</a>
+                            <a class="navbar-item" href="/about/rules-and-guidelines">Rules and Guidelines</a>
+                            <hr class="navbar-divider is-hidden-touch">
+                            <div class="navbar-item is-hidden-touch">
+                                <div class="navbar-content">
+                                    <div class="level is-mobile">
+                                        <div class="level-left">
+                                            <div class="level-item has-text-light">
+                                                Follow us:
+                                            </div>
+                                        </div>
+                                        <div class="level-right ml-2">
+                                            <div class="level-item">
+                                                <a class="icon has-text-light" href="https://discord.gg/eorzeacollection" target="_blank">
+                                                    <i class="fa-brands fa-discord"></i>
+                                                </a>
+                                                <a class="icon has-text-light" href="https://www.patreon.com/ffxiveorzeacollection" target="_blank">
+                                                    <i class="fa-brands fa-patreon"></i>
+                                                </a>
+                                                <a class="icon has-text-light" href="https://twitter.com/eorzeacollect" target="_blank">
+                                                    <i class="fa-brands fa-twitter"></i>
+                                                </a>
+                                                <a class="icon has-text-light" href="https://www.facebook.com/ffxiveorzeacollection" target="_blank">
+                                                    <i class="fa-brands fa-facebook"></i>
+                                                </a>
+                                                <a class="icon has-text-light" href="https://www.instagram.com/eorzea.collection/" target="_blank">
+                                                    <i class="fa-brands fa-instagram"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    
+                    <div class="navbar-item is-hidden-touch is-hidden-desktop-only">
+                        <div class="level is-mobile">
+                            <div class="level-item">
+                                <a class="icon clickable has-text-light" href="https://discord.gg/eorzeacollection" target="_blank">
+                                    <i class="fa-brands fa-discord"></i>
+                                </a>
+                            </div>
+                            <div class="level-item">
+                                <a class="icon clickable has-text-light" href="https://twitter.com/eorzeacollect" target="_blank">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </div>
+                            <div class="level-item">
+                                <a class="icon clickable has-text-light" href="https://www.patreon.com/ffxiveorzeacollection" target="_blank">
+                                    <i class="fa-brands fa-patreon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="navbar-end is-hidden-touch pr-2">
+                    
+                    <div class="navbar-item has-dropdown is-hoverable is-align-items-center">
+                        <a class="button is-background header-login-button " href="/login" style="background-image: url(/resources/v7/icons/ffxiv/full-body.png)">
+                                                        <span>Login</span>
+                        </a>
+                                            </div>
+                </div>
+
+                <div class="is-hidden-desktop">
+                                            <a class="navbar-link is-arrowless" href="/login">Login</a>
+                                        <hr class="navbar-divider is-block">
+                    <div class="navbar-item">
+                        <div class="navbar-content">
+                            <div class="level is-mobile">
+                                <div class="level-left">
+                                    <div class="level-item has-text-light">
+                                        Follow us:
+                                    </div>
+                                </div>
+                                <div class="level-right ml-2">
+                                    <div class="level-item">
+                                        <a class="icon has-text-light" href="https://discord.gg/eorzeacollection" target="_blank">
+                                            <i class="fa-brands fa-discord"></i>
+                                        </a>
+                                        <a class="icon has-text-light" href="https://www.patreon.com/ffxiveorzeacollection" target="_blank">
+                                            <i class="fa-brands fa-patreon"></i>
+                                        </a>
+                                        <a class="icon has-text-light" href="https://twitter.com/eorzeacollect" target="_blank">
+                                            <i class="fa-brands fa-twitter"></i>
+                                        </a>
+                                        <a class="icon has-text-light" href="https://www.facebook.com/ffxiveorzeacollection" target="_blank">
+                                            <i class="fa-brands fa-facebook"></i>
+                                        </a>
+                                        <a class="icon has-text-light" href="https://www.instagram.com/eorzea.collection" target="_blank">
+                                            <i class="fa-brands fa-instagram"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+</ec-v7-header>
+
+    <section class="l-block u-container b-title">
+        <h1 class="b-title-text"><b class="b-title-text-bold">Late Allagan Maiming</b> Set</h1>
+        <h2 class="b-title-sub">PVP Gear</h2>
+    </section>
+
+    
+    
+    <section class="l-section s-gearset-details-gallery">
+        <img class="u-inset s-gearset-details-gallery-image" src="https://gearsets.eorzeacollection.com/pvp/late-allagan/late-allagan-maiming/male-front.png">
+        <img class="u-inset s-gearset-details-gallery-image" src="https://gearsets.eorzeacollection.com/pvp/late-allagan/late-allagan-maiming/male-back.png">
+        <img class="u-inset s-gearset-details-gallery-image" src="https://gearsets.eorzeacollection.com/pvp/late-allagan/late-allagan-maiming/female-front.png">        <img class="u-inset s-gearset-details-gallery-image" src="https://gearsets.eorzeacollection.com/pvp/late-allagan/late-allagan-maiming/female-back.png">    </section>
+
+    <section class="l-section l-section-double" style="padding-top: 0">
+        <div class="l-section-double-main u-for-gallery">
+
+            <section class="b-info-box">
+                <div class="b-info-box-category u-no-margin">
+                    <img class="b-info-box-category-icon" src="/resources/icons/ffxiv/battle.png">
+                    <span class="b-info-box-category-title">Equipment:</span><br>
+                </div>
+
+                <div>
+                        <div class=" b-info-box-item-wrapper" style="padding-bottom: 10px">
+        
+                            <a href="https://na.finalfantasyxiv.com/lodestone/playguide/db/item/864a1b8a03f" class="c-gear-slot c-gear-slot-head b-info-box-item eorzeadb_link" target="_blank">
+                            <img class="b-info-box-item-icon" src="https://icons.eorzeacollection.com/040000/040360.png">
+                <img class="b-info-box-item-frame" src="/resources/icons/slots/reflection_frame.png">
+                                            </a>
+            
+            <div class="c-gear-slot-item">
+                                    <a href="https://na.finalfantasyxiv.com/lodestone/playguide/db/item/864a1b8a03f" class="eorzeadb_link" target="_blank" style="display: inline-block; width: fit-content;">
+                                    <span class="c-gear-slot-item-name u-with-color u-rarity-basic" style="margin-top: 5px;">Late Allagan Mask of Maiming</span>
+                                    </a>
+                                                    <div style="height: 16px;">
+                                                    <span class="c-gear-slot-item-info-color u-inset" style="display: inline-block">
+                                                                    <span class="c-gear-slot-item-info-color-icon u-undyed">◯ Undyed</span>
+                                                                </span>
+                                                                    </div>
+                            </div>
+
+                            <a href="/glamours/head/16326">
+                    <div class="b-info-box-item-action">
+                        <img class="b-info-box-item-action-icon" src="/resources/icons/icon-search-white.svg">
+                        <span class="b-info-box-item-action-text">glamours using this piece</span>
+                    </div>
+                </a>
+                        </div>
+
+                        <div class=" b-info-box-item-wrapper" style="padding-bottom: 10px">
+        
+                            <a href="https://na.finalfantasyxiv.com/lodestone/playguide/db/item/77818056530" class="c-gear-slot c-gear-slot-body b-info-box-item eorzeadb_link" target="_blank">
+                            <img class="b-info-box-item-icon" src="https://icons.eorzeacollection.com/043000/043490.png">
+                <img class="b-info-box-item-frame" src="/resources/icons/slots/reflection_frame.png">
+                                            </a>
+            
+            <div class="c-gear-slot-item">
+                                    <a href="https://na.finalfantasyxiv.com/lodestone/playguide/db/item/77818056530" class="eorzeadb_link" target="_blank" style="display: inline-block; width: fit-content;">
+                                    <span class="c-gear-slot-item-name u-with-color u-rarity-basic" style="margin-top: 5px;">Late Allagan Armor of Maiming</span>
+                                    </a>
+                                                    <div style="height: 16px;">
+                                                    <span class="c-gear-slot-item-info-color u-inset" style="display: inline-block">
+                                                                    <span class="c-gear-slot-item-info-color-icon u-undyed">◯ Undyed</span>
+                                                                </span>
+                                                                    </div>
+                            </div>
+
+                            <a href="/glamours/body/16372">
+                    <div class="b-info-box-item-action">
+                        <img class="b-info-box-item-action-icon" src="/resources/icons/icon-search-white.svg">
+                        <span class="b-info-box-item-action-text">glamours using this piece</span>
+                    </div>
+                </a>
+                        </div>
+
+                        <div class=" b-info-box-item-wrapper" style="padding-bottom: 10px">
+        
+                            <a href="https://na.finalfantasyxiv.com/lodestone/playguide/db/item/65f87a2a481" class="c-gear-slot c-gear-slot-hands b-info-box-item eorzeadb_link" target="_blank">
+                            <img class="b-info-box-item-icon" src="https://icons.eorzeacollection.com/048000/048618.png">
+                <img class="b-info-box-item-frame" src="/resources/icons/slots/reflection_frame.png">
+                                            </a>
+            
+            <div class="c-gear-slot-item">
+                                    <a href="https://na.finalfantasyxiv.com/lodestone/playguide/db/item/65f87a2a481" class="eorzeadb_link" target="_blank" style="display: inline-block; width: fit-content;">
+                                    <span class="c-gear-slot-item-name u-with-color u-rarity-basic" style="margin-top: 5px;">Late Allagan Gloves of Maiming</span>
+                                    </a>
+                                                    <div style="height: 16px;">
+                                                    <span class="c-gear-slot-item-info-color u-inset" style="display: inline-block">
+                                                                    <span class="c-gear-slot-item-info-color-icon u-undyed">◯ Undyed</span>
+                                                                </span>
+                                                                    </div>
+                            </div>
+
+                            <a href="/glamours/hands/16412">
+                    <div class="b-info-box-item-action">
+                        <img class="b-info-box-item-action-icon" src="/resources/icons/icon-search-white.svg">
+                        <span class="b-info-box-item-action-text">glamours using this piece</span>
+                    </div>
+                </a>
+                        </div>
+
+                        <div class=" b-info-box-item-wrapper" style="padding-bottom: 10px">
+        
+                            <a href="https://na.finalfantasyxiv.com/lodestone/playguide/db/item/fb5c00dbcf2" class="c-gear-slot c-gear-slot-legs b-info-box-item eorzeadb_link" target="_blank">
+                            <img class="b-info-box-item-icon" src="https://icons.eorzeacollection.com/047000/047648.png">
+                <img class="b-info-box-item-frame" src="/resources/icons/slots/reflection_frame.png">
+                                            </a>
+            
+            <div class="c-gear-slot-item">
+                                    <a href="https://na.finalfantasyxiv.com/lodestone/playguide/db/item/fb5c00dbcf2" class="eorzeadb_link" target="_blank" style="display: inline-block; width: fit-content;">
+                                    <span class="c-gear-slot-item-name u-with-color u-rarity-basic" style="margin-top: 5px;">Late Allagan Bottoms of Maiming</span>
+                                    </a>
+                                                    <div style="height: 16px;">
+                                                    <span class="c-gear-slot-item-info-color u-inset" style="display: inline-block">
+                                                                    <span class="c-gear-slot-item-info-color-icon u-undyed">◯ Undyed</span>
+                                                                </span>
+                                                                    </div>
+                            </div>
+
+                            <a href="/glamours/legs/16450">
+                    <div class="b-info-box-item-action">
+                        <img class="b-info-box-item-action-icon" src="/resources/icons/icon-search-white.svg">
+                        <span class="b-info-box-item-action-text">glamours using this piece</span>
+                    </div>
+                </a>
+                        </div>
+
+                        <div class=" b-info-box-item-wrapper" style="padding-bottom: 10px">
+        
+                            <a href="https://na.finalfantasyxiv.com/lodestone/playguide/db/item/4170f7d82cf" class="c-gear-slot c-gear-slot-feet b-info-box-item eorzeadb_link" target="_blank">
+                            <img class="b-info-box-item-icon" src="https://icons.eorzeacollection.com/049000/049093.png">
+                <img class="b-info-box-item-frame" src="/resources/icons/slots/reflection_frame.png">
+                                            </a>
+            
+            <div class="c-gear-slot-item">
+                                    <a href="https://na.finalfantasyxiv.com/lodestone/playguide/db/item/4170f7d82cf" class="eorzeadb_link" target="_blank" style="display: inline-block; width: fit-content;">
+                                    <span class="c-gear-slot-item-name u-with-color u-rarity-basic" style="margin-top: 5px;">Late Allagan Sollerets of Maiming</span>
+                                    </a>
+                                                    <div style="height: 16px;">
+                                                    <span class="c-gear-slot-item-info-color u-inset" style="display: inline-block">
+                                                                    <span class="c-gear-slot-item-info-color-icon u-undyed">◯ Undyed</span>
+                                                                </span>
+                                                                    </div>
+                            </div>
+
+                            <a href="/glamours/feet/16487">
+                    <div class="b-info-box-item-action">
+                        <img class="b-info-box-item-action-icon" src="/resources/icons/icon-search-white.svg">
+                        <span class="b-info-box-item-action-text">glamours using this piece</span>
+                    </div>
+                </a>
+                        </div>
+
+
+                                                                                                                    </div>
+
+                <div class="u-no-sidebar-only" style="margin-top: 30px;">
+                    <div style="text-align: right; margin-bottom: 10px">
+                        <span class="c-label c-label-primary">Dyeable</span>
+                        <span class="c-label"> Untradable</span>
+                        <img class="c-label u-no-background" src="/resources/icons/patches/shb.png" style="max-height: 19px; vertical-align: middle;">
+                        <span id="js-gearset-likes-mb-late-allagan-maiming" class="c-glamour-grid-item-icons-counter c-label" style="margin-bottom: 4px;">176</span>
+                                                    <div class="c-tooltip">
+                                <a href="/login"><div class="c-reaction"><img class="c-reaction-icon c-reaction-icon-disabled" src="/resources/icons/icon-glow-heart.png"></div></a>
+                                <div class="c-tooltip-text">you need to be logged in to love</div>
+                            </div>
+                            <div class="c-tooltip">
+                                <a href="/login"><div class="c-reaction"><img class="c-reaction-icon c-reaction-icon-disabled" src="/resources/icons/icon-glow-star.png"></div></a>
+                                <div class="c-tooltip-text">you need to be logged in to save as favorite</div>
+                            </div>
+                                            </div>
+
+                    <div class="b-info-box">
+                        <div class="b-info-box-category-list" style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 10px; align-items: center">
+                            <div class="b-info-box-category-list-item">
+                                <img class="b-info-box-category-icon" src="/resources/icons/ffxiv/ilvl.png" style="width: 24px; margin: 0 4px">
+                                <b class="b-info-box-category-list-item-main">1</b>
+                            </div>
+
+                            <div class="b-info-box-category-list-item">
+                                <img class="b-info-box-category-icon" src="/resources/icons/ffxiv/lv.svg" style="width: 24px; margin: 0 4px">
+                                <b class="b-info-box-category-list-item-main">1</b>
+                            </div>
+                        </div>
+
+                        <div class="b-info-box-category">
+                            <img class="b-info-box-category-icon" src="/resources/icons/ffxiv/fc.png">
+                            <span class="b-info-box-category-title">Wearable by:</span><br>
+                        </div>
+
+                            <div class="c-set-fitting">
+        <div class="c-set-fitting-group">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-pld.png" alt="PLD" title="Paladin">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-war.png" alt="WAR" title="Warrior">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-drk.png" alt="DRK" title="Dark Knight">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-gnb.png" alt="GNB" title="Gunbreaker">
+
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-whm.png" alt="WHM" title="White Mage">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-sch.png" alt="SCH" title="Scholar">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-ast.png" alt="AST" title="Astrologian">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-sge.png" alt="SGE" title="Sage">
+        </div>
+
+        <div class="c-set-fitting-group">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-mnk.png" alt="MNK" title="Monk">
+            <img class="c-set-fitting-icon " src="/resources/icons/jobs/job-drg.png" alt="DRG" title="Dragoon">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-nin.png" alt="NIN" title="Ninja">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-sam.png" alt="SAM" title="Samurai">
+            <img class="c-set-fitting-icon " src="/resources/icons/jobs/job-rpr.png" alt="RPR" title="Reaper">
+
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-brd.png" alt="BRD" title="Bard">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-mch.png" alt="MCH" title="Machinist">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-dnc.png" alt="DNC" title="Dancer">
+        </div>
+
+        <div class="c-set-fitting-group">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-blm.png" alt="BLM" title="Black Mage">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-smn.png" alt="SMN" title="Summoner">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-rdm.png" alt="RDM" title="Red Mage">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-blu.png" alt="BLU" title="Blue Mage">
+        </div>
+
+        <div class="c-set-fitting-group">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-crp.png" alt="CRP" title="Carpenter">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-bsm.png" alt="BSM" title="Blacksmith">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-arm.png" alt="ARM" title="Armorer">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-gsm.png" alt="GSM" title="Goldsmith">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-ltw.png" alt="LTW" title="Leatherworker">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-wvr.png" alt="WVR" title="Weaver">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-alc.png" alt="ALC" title="Alchemist">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-cul.png" alt="CUL" title="Culinarian">
+        </div>
+
+        <div class="c-set-fitting-group">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-min.png" alt="MIN" title="Miner">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-btn.png" alt="BTN" title="Botanist">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-fsh.png" alt="FSH" title="Fisher">
+        </div>
+    </div>
+
+
+                            <div class="c-set-fitting">
+        <div class="c-set-fitting-group">
+            <img class="c-set-fitting-icon " src="/resources/icons/genders/gender-male.png" alt="Male" title="Male">
+            <img class="c-set-fitting-icon " src="/resources/icons/genders/gender-female.png" alt="Female" title="Female">
+        </div>
+    </div>
+
+                    </div>
+
+                    
+                    
+                                                <div class="c-publicity">
+                    <div class="is-flex is-align-items-center is-justify-content-space-between has-text-background-darker">
+                <hr class="has-background-background-darker" style="width: 100%; height: 1px;" />
+                <span class="is-size-7 mx-4">Advertisement</span>
+                <hr class="has-background-background-darker" style="width: 100%; height: 1px;" />
+            </div>
+        
+        <div class="c-publicity-background u-mrec">
+            <!--  [Desktop/Tablet]med_rect_btf -->
+            <div data-pw-desk="med_rect_btf" id="pwDeskMedRectBtf1"></div>
+            <script type="text/javascript">
+                window.ramp.que.push(function () {
+                    window.ramp.addTag("pwDeskMedRectBtf1");
+                })
+            </script>
+            <!--  [Mobile]med_rect_btf -->
+            <div data-pw-mobi="med_rect_btf" id="pwMobiMedRectBtf1"></div>
+            <script type="text/javascript">
+                window.ramp.que.push(function () {
+                    window.ramp.addTag("pwMobiMedRectBtf1");
+                })
+            </script>
+        </div>
+
+                    <div class="is-flex is-align-items-center is-justify-content-space-between has-text-background-darker">
+                <hr class="has-background-background-darker" style="width: 100%; height: 1px;" />
+                <span class="is-size-7 is-flex-shrink-0 mx-4">Become a patron to remove ads</span>
+                <hr class="has-background-background-darker" style="width: 100%; height: 1px;" />
+            </div>
+            </div>
+
+                                    </div>
+
+                
+                
+                                    
+                                            
+                                                                    
+                                                                                                <div class="b-info-box-category" style="margin-top: 40px">
+                                                                    <img class="b-info-box-category-icon" src="/resources/icons/ffxiv/special-vendor.png" style="max-width: 21px;">
+                                    <span class="b-info-box-category-title">Exchanged using:</span><br>
+                                                            </div>
+                        
+                                                    
+                                                                                        
+                            <div class="b-info-box-category-list">
+                                <div class="b-info-box-category-list-item" style="position: relative">
+                                    <a href="https://na.finalfantasyxiv.com/lodestone/playguide/db/shop/8df94300779" class="eorzeadb_link" target="_blank">
+                                        <span class="b-info-box-category-list-item-dash">
+                                            <img class="b-info-box-category-icon" src="/resources/icons/ffxiv/content/currency/wolf-mark.png">
+                                        </span>
+                                        <b class="b-info-box-category-list-item-main u-quest-name">
+                                                                                                                                    Wolf Marks                                                                                                                                </b>
+                                    </a>
+                                    <div class="b-info-box-category-list-item-details u-white-text" style="vertical-align: middle">
+                                                                                                                        from <b class="u-npc-name">Storm Private</b><span class="u-grey-text"> - Wolves&#039; Den Pier (X:4.4 Y:6.0)</span>                                                                                                                                                                                                        <span class="u-grey-text"></span>                                    </div>
+                                </div>
+                            </div>
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                            
+                
+                <div class="b-info-box-category" style="margin-top: 40px">
+                    <img class="b-info-box-category-icon" src="/resources/icons/ffxiv/resident.png">
+                    <span class="b-info-box-category-title">Individual Pieces:</span><br>
+                </div>
+
+                <div style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 10px">
+                                                                        <img class="u-inset" style="display: inline-block; max-width: 100%" src="https://gearsets.eorzeacollection.com/pvp/late-allagan/late-allagan-maiming/male-head.png">
+                            <img class="u-inset" style="display: inline-block; max-width: 100%" src="https://gearsets.eorzeacollection.com/pvp/late-allagan/late-allagan-maiming/female-head.png">
+                        
+                                                    <img class="u-inset" style="display: inline-block; max-width: 100%" src="https://gearsets.eorzeacollection.com/pvp/late-allagan/late-allagan-maiming/male-body.png">
+                            <img class="u-inset" style="display: inline-block; max-width: 100%" src="https://gearsets.eorzeacollection.com/pvp/late-allagan/late-allagan-maiming/female-body.png">
+                        
+                                                    <img class="u-inset" style="display: inline-block; max-width: 100%" src="https://gearsets.eorzeacollection.com/pvp/late-allagan/late-allagan-maiming/male-hands.png">
+                            <img class="u-inset" style="display: inline-block; max-width: 100%" src="https://gearsets.eorzeacollection.com/pvp/late-allagan/late-allagan-maiming/female-hands.png">
+                        
+                                                    <img class="u-inset" style="display: inline-block; max-width: 100%" src="https://gearsets.eorzeacollection.com/pvp/late-allagan/late-allagan-maiming/male-legs.png">
+                            <img class="u-inset" style="display: inline-block; max-width: 100%" src="https://gearsets.eorzeacollection.com/pvp/late-allagan/late-allagan-maiming/female-legs.png">
+                        
+                                                    <img class="u-inset" style="display: inline-block; max-width: 100%" src="https://gearsets.eorzeacollection.com/pvp/late-allagan/late-allagan-maiming/male-feet.png">
+                            <img class="u-inset" style="display: inline-block; max-width: 100%" src="https://gearsets.eorzeacollection.com/pvp/late-allagan/late-allagan-maiming/female-feet.png">
+                                                            </div>
+            </section>
+
+                                                <div class="c-publicity">
+                    <div class="is-flex is-align-items-center is-justify-content-space-between has-text-background-darker">
+                <hr class="has-background-background-darker" style="width: 100%; height: 1px;" />
+                <span class="is-size-7 mx-4">Advertisement</span>
+                <hr class="has-background-background-darker" style="width: 100%; height: 1px;" />
+            </div>
+        
+        <div class="c-publicity-background u-leaderboard">
+            <!--  [Desktop/Tablet]leaderboard_atf -->
+            <div data-pw-desk="leaderboard_btf" id="pwDeskLbBtf1"></div>
+            <script type="text/javascript">
+                window.ramp.que.push(function () {
+                    window.ramp.addTag("pwDeskLbBtf1");
+                })
+            </script>
+            <!--  [Mobile]leaderboard_atf -->
+            <div data-pw-mobi="leaderboard_btf" id="pwMobiLbBtf1"></div>
+            <script type="text/javascript">
+                window.ramp.que.push(function () {
+                    window.ramp.addTag("pwMobiLbBtf1");
+                })
+            </script>
+        </div>
+
+                    <div class="is-flex is-align-items-center is-justify-content-space-between has-text-background-darker">
+                <hr class="has-background-background-darker" style="width: 100%; height: 1px;" />
+                <span class="is-size-7 is-flex-shrink-0 mx-4">Become a patron to remove ads</span>
+                <hr class="has-background-background-darker" style="width: 100%; height: 1px;" />
+            </div>
+            </div>
+
+            
+                            <section class="l-block u-container b-title">
+                    <h2 class="b-title-text">
+                        <b class="b-title-text-bold">Related</b> Sets
+                    </h2>
+                </section>
+
+                <section class="l-block u-container">
+                    <div class="c-glamour-grid">
+                            
+            <article class="c-glamour-grid-item ">
+            <div class="c-glamour-grid-item-icons u-top">
+                <div class="c-label u-desktop-only-inline" style="margin: 2px;vertical-align: bottom;">
+                    <b>1</b>
+                    <img class="b-info-box-category-icon" src="/resources/icons/ffxiv/ilvl.png" style="width: 10px;">
+                </div>
+                <div class="c-label" style="margin: 2px 0;vertical-align: bottom;">
+                    <b>1</b>
+                    <img class="b-info-box-category-icon" src="/resources/icons/ffxiv/lv.svg" style="width: 10px;">
+                </div>
+                <span id="js-gearset-likes-late-allagan-aiming" class="c-glamour-grid-item-icons-counter c-label">122</span>
+                                    <div class="c-tooltip">
+                        <a href="/login">
+                            <div class="c-reaction"><img class="c-reaction-icon c-reaction-icon-disabled" src="/resources/icons/icon-glow-heart.png"></div>
+                        </a>
+                        <div class="c-tooltip-text">you need to be logged in to love</div>
+                    </div>
+                    <div class="c-tooltip">
+                        <a href="/login">
+                            <div class="c-reaction"><img class="c-reaction-icon c-reaction-icon-disabled" src="/resources/icons/icon-glow-star.png"></div>
+                        </a>
+                        <div class="c-tooltip-text">you need to be logged in to save as favorite</div>
+                    </div>
+                            </div>
+
+            <div class="c-glamour-grid-item-icons u-bottom" style="display: flex; flex-wrap: wrap;flex-direction: column;">
+                                                    
+                    
+        
+                        
+    <img class="c-set-fitting-icon u-on-image" src="/resources/icons/jobs/role-ranged.png" alt="Ranged" title="Ranged DPS">            
+                    
+                                    
+                
+    
+            </div>
+
+                                                <div style="position: absolute; top: 5px; right: 4px; display: flex; flex-direction: row-reverse;">
+                        
+                                                    <div class="c-tooltip">
+                                <img src="/resources/icons/ffxiv/dyed.png" style="width: 20px;">
+                                <div class="c-tooltip-text">Dyeable</div>
+                            </div>
+                        
+                                            </div>
+                            
+            <a class="c-glamour-grid-item-link" href="/gearset/late-allagan-aiming">
+                <div class="c-glamour-grid-item-content">
+                    <h3 class="c-glamour-grid-item-content-title has-text-white"><span class="u-rarity-basic">Late Allagan Aiming</span> Set</h3>
+                    <div class="c-glamour-grid-item-content-divider"></div>
+                    <h4 class="c-glamour-grid-item-content-author"><b>PVP Gear</b></h4>
+                </div>
+
+                        
+    
+        
+    
+    
+    
+    <img class="c-glamour-grid-item-image u-inset" src="https://gearsets.eorzeacollection.com/pvp/late-allagan/late-allagan-aiming/male-front.png" loading="lazy">
+
+            <div class="c-glamour-grid-item-image u-inset u-toggle-hover">
+            <div class="c-glamour-grid-item-image u-inset u-toggle-hover" style="background-image: url('https://gearsets.eorzeacollection.com/pvp/late-allagan/late-allagan-aiming/male-back.png')"></div>
+        </div>
+    
+            </a>
+        </article>
+            <article class="c-glamour-grid-item ">
+            <div class="c-glamour-grid-item-icons u-top">
+                <div class="c-label u-desktop-only-inline" style="margin: 2px;vertical-align: bottom;">
+                    <b>1</b>
+                    <img class="b-info-box-category-icon" src="/resources/icons/ffxiv/ilvl.png" style="width: 10px;">
+                </div>
+                <div class="c-label" style="margin: 2px 0;vertical-align: bottom;">
+                    <b>1</b>
+                    <img class="b-info-box-category-icon" src="/resources/icons/ffxiv/lv.svg" style="width: 10px;">
+                </div>
+                <span id="js-gearset-likes-late-allagan-casting" class="c-glamour-grid-item-icons-counter c-label">259</span>
+                                    <div class="c-tooltip">
+                        <a href="/login">
+                            <div class="c-reaction"><img class="c-reaction-icon c-reaction-icon-disabled" src="/resources/icons/icon-glow-heart.png"></div>
+                        </a>
+                        <div class="c-tooltip-text">you need to be logged in to love</div>
+                    </div>
+                    <div class="c-tooltip">
+                        <a href="/login">
+                            <div class="c-reaction"><img class="c-reaction-icon c-reaction-icon-disabled" src="/resources/icons/icon-glow-star.png"></div>
+                        </a>
+                        <div class="c-tooltip-text">you need to be logged in to save as favorite</div>
+                    </div>
+                            </div>
+
+            <div class="c-glamour-grid-item-icons u-bottom" style="display: flex; flex-wrap: wrap;flex-direction: column;">
+                                                    
+                    
+        
+                        
+                
+    <img class="c-set-fitting-icon u-on-image" src="/resources/icons/jobs/role-caster.png" alt="Caster" title="Caster DPS">                
+                                    
+                
+    
+            </div>
+
+                                                <div style="position: absolute; top: 5px; right: 4px; display: flex; flex-direction: row-reverse;">
+                        
+                                                    <div class="c-tooltip">
+                                <img src="/resources/icons/ffxiv/dyed.png" style="width: 20px;">
+                                <div class="c-tooltip-text">Dyeable</div>
+                            </div>
+                        
+                                            </div>
+                            
+            <a class="c-glamour-grid-item-link" href="/gearset/late-allagan-casting">
+                <div class="c-glamour-grid-item-content">
+                    <h3 class="c-glamour-grid-item-content-title has-text-white"><span class="u-rarity-basic">Late Allagan Casting</span> Set</h3>
+                    <div class="c-glamour-grid-item-content-divider"></div>
+                    <h4 class="c-glamour-grid-item-content-author"><b>PVP Gear</b></h4>
+                </div>
+
+                        
+    
+        
+    
+    
+    
+    <img class="c-glamour-grid-item-image u-inset" src="https://gearsets.eorzeacollection.com/pvp/late-allagan/late-allagan-casting/male-front.png" loading="lazy">
+
+            <div class="c-glamour-grid-item-image u-inset u-toggle-hover">
+            <div class="c-glamour-grid-item-image u-inset u-toggle-hover" style="background-image: url('https://gearsets.eorzeacollection.com/pvp/late-allagan/late-allagan-casting/male-back.png')"></div>
+        </div>
+    
+            </a>
+        </article>
+            <article class="c-glamour-grid-item ">
+            <div class="c-glamour-grid-item-icons u-top">
+                <div class="c-label u-desktop-only-inline" style="margin: 2px;vertical-align: bottom;">
+                    <b>1</b>
+                    <img class="b-info-box-category-icon" src="/resources/icons/ffxiv/ilvl.png" style="width: 10px;">
+                </div>
+                <div class="c-label" style="margin: 2px 0;vertical-align: bottom;">
+                    <b>1</b>
+                    <img class="b-info-box-category-icon" src="/resources/icons/ffxiv/lv.svg" style="width: 10px;">
+                </div>
+                <span id="js-gearset-likes-late-allagan-fending" class="c-glamour-grid-item-icons-counter c-label">220</span>
+                                    <div class="c-tooltip">
+                        <a href="/login">
+                            <div class="c-reaction"><img class="c-reaction-icon c-reaction-icon-disabled" src="/resources/icons/icon-glow-heart.png"></div>
+                        </a>
+                        <div class="c-tooltip-text">you need to be logged in to love</div>
+                    </div>
+                    <div class="c-tooltip">
+                        <a href="/login">
+                            <div class="c-reaction"><img class="c-reaction-icon c-reaction-icon-disabled" src="/resources/icons/icon-glow-star.png"></div>
+                        </a>
+                        <div class="c-tooltip-text">you need to be logged in to save as favorite</div>
+                    </div>
+                            </div>
+
+            <div class="c-glamour-grid-item-icons u-bottom" style="display: flex; flex-wrap: wrap;flex-direction: column;">
+                                    <img class="c-set-fitting-icon u-on-image" src="/resources/icons/jobs/role-tank.png" alt="Tanks" title="Tanks">                
+                    
+        
+                        
+                
+                    
+                                    
+                
+    
+            </div>
+
+                                                <div style="position: absolute; top: 5px; right: 4px; display: flex; flex-direction: row-reverse;">
+                        
+                                                    <div class="c-tooltip">
+                                <img src="/resources/icons/ffxiv/dyed.png" style="width: 20px;">
+                                <div class="c-tooltip-text">Dyeable</div>
+                            </div>
+                        
+                                            </div>
+                            
+            <a class="c-glamour-grid-item-link" href="/gearset/late-allagan-fending">
+                <div class="c-glamour-grid-item-content">
+                    <h3 class="c-glamour-grid-item-content-title has-text-white"><span class="u-rarity-basic">Late Allagan Fending</span> Set</h3>
+                    <div class="c-glamour-grid-item-content-divider"></div>
+                    <h4 class="c-glamour-grid-item-content-author"><b>PVP Gear</b></h4>
+                </div>
+
+                        
+    
+        
+    
+    
+    
+    <img class="c-glamour-grid-item-image u-inset" src="https://gearsets.eorzeacollection.com/pvp/late-allagan/late-allagan-fending/male-front.png" loading="lazy">
+
+            <div class="c-glamour-grid-item-image u-inset u-toggle-hover">
+            <div class="c-glamour-grid-item-image u-inset u-toggle-hover" style="background-image: url('https://gearsets.eorzeacollection.com/pvp/late-allagan/late-allagan-fending/male-back.png')"></div>
+        </div>
+    
+            </a>
+        </article>
+            <article class="c-glamour-grid-item ">
+            <div class="c-glamour-grid-item-icons u-top">
+                <div class="c-label u-desktop-only-inline" style="margin: 2px;vertical-align: bottom;">
+                    <b>1</b>
+                    <img class="b-info-box-category-icon" src="/resources/icons/ffxiv/ilvl.png" style="width: 10px;">
+                </div>
+                <div class="c-label" style="margin: 2px 0;vertical-align: bottom;">
+                    <b>1</b>
+                    <img class="b-info-box-category-icon" src="/resources/icons/ffxiv/lv.svg" style="width: 10px;">
+                </div>
+                <span id="js-gearset-likes-late-allagan-healing" class="c-glamour-grid-item-icons-counter c-label">294</span>
+                                    <div class="c-tooltip">
+                        <a href="/login">
+                            <div class="c-reaction"><img class="c-reaction-icon c-reaction-icon-disabled" src="/resources/icons/icon-glow-heart.png"></div>
+                        </a>
+                        <div class="c-tooltip-text">you need to be logged in to love</div>
+                    </div>
+                    <div class="c-tooltip">
+                        <a href="/login">
+                            <div class="c-reaction"><img class="c-reaction-icon c-reaction-icon-disabled" src="/resources/icons/icon-glow-star.png"></div>
+                        </a>
+                        <div class="c-tooltip-text">you need to be logged in to save as favorite</div>
+                    </div>
+                            </div>
+
+            <div class="c-glamour-grid-item-icons u-bottom" style="display: flex; flex-wrap: wrap;flex-direction: column;">
+                                                    
+    <img class="c-set-fitting-icon u-on-image" src="/resources/icons/jobs/role-healer.png" alt="Healers" title="Healers">                
+        
+                        
+                
+                    
+                                    
+                
+    
+            </div>
+
+                                                <div style="position: absolute; top: 5px; right: 4px; display: flex; flex-direction: row-reverse;">
+                        
+                                                    <div class="c-tooltip">
+                                <img src="/resources/icons/ffxiv/dyed.png" style="width: 20px;">
+                                <div class="c-tooltip-text">Dyeable</div>
+                            </div>
+                        
+                                            </div>
+                            
+            <a class="c-glamour-grid-item-link" href="/gearset/late-allagan-healing">
+                <div class="c-glamour-grid-item-content">
+                    <h3 class="c-glamour-grid-item-content-title has-text-white"><span class="u-rarity-basic">Late Allagan Healing</span> Set</h3>
+                    <div class="c-glamour-grid-item-content-divider"></div>
+                    <h4 class="c-glamour-grid-item-content-author"><b>PVP Gear</b></h4>
+                </div>
+
+                        
+    
+        
+    
+    
+    
+    <img class="c-glamour-grid-item-image u-inset" src="https://gearsets.eorzeacollection.com/pvp/late-allagan/late-allagan-healing/male-front.png" loading="lazy">
+
+            <div class="c-glamour-grid-item-image u-inset u-toggle-hover">
+            <div class="c-glamour-grid-item-image u-inset u-toggle-hover" style="background-image: url('https://gearsets.eorzeacollection.com/pvp/late-allagan/late-allagan-healing/male-back.png')"></div>
+        </div>
+    
+            </a>
+        </article>
+            <article class="c-glamour-grid-item ">
+            <div class="c-glamour-grid-item-icons u-top">
+                <div class="c-label u-desktop-only-inline" style="margin: 2px;vertical-align: bottom;">
+                    <b>1</b>
+                    <img class="b-info-box-category-icon" src="/resources/icons/ffxiv/ilvl.png" style="width: 10px;">
+                </div>
+                <div class="c-label" style="margin: 2px 0;vertical-align: bottom;">
+                    <b>1</b>
+                    <img class="b-info-box-category-icon" src="/resources/icons/ffxiv/lv.svg" style="width: 10px;">
+                </div>
+                <span id="js-gearset-likes-late-allagan-scouting" class="c-glamour-grid-item-icons-counter c-label">115</span>
+                                    <div class="c-tooltip">
+                        <a href="/login">
+                            <div class="c-reaction"><img class="c-reaction-icon c-reaction-icon-disabled" src="/resources/icons/icon-glow-heart.png"></div>
+                        </a>
+                        <div class="c-tooltip-text">you need to be logged in to love</div>
+                    </div>
+                    <div class="c-tooltip">
+                        <a href="/login">
+                            <div class="c-reaction"><img class="c-reaction-icon c-reaction-icon-disabled" src="/resources/icons/icon-glow-star.png"></div>
+                        </a>
+                        <div class="c-tooltip-text">you need to be logged in to save as favorite</div>
+                    </div>
+                            </div>
+
+            <div class="c-glamour-grid-item-icons u-bottom" style="display: flex; flex-wrap: wrap;flex-direction: column;">
+                                                    
+                    
+        
+                <img class="c-set-fitting-icon u-on-image" src="/resources/icons/jobs/job-nin.png" alt="NIN" title="Ninja">        
+                
+                    
+                                    
+                
+    
+            </div>
+
+                                                <div style="position: absolute; top: 5px; right: 4px; display: flex; flex-direction: row-reverse;">
+                        
+                                                    <div class="c-tooltip">
+                                <img src="/resources/icons/ffxiv/dyed.png" style="width: 20px;">
+                                <div class="c-tooltip-text">Dyeable</div>
+                            </div>
+                        
+                                            </div>
+                            
+            <a class="c-glamour-grid-item-link" href="/gearset/late-allagan-scouting">
+                <div class="c-glamour-grid-item-content">
+                    <h3 class="c-glamour-grid-item-content-title has-text-white"><span class="u-rarity-basic">Late Allagan Scouting</span> Set</h3>
+                    <div class="c-glamour-grid-item-content-divider"></div>
+                    <h4 class="c-glamour-grid-item-content-author"><b>PVP Gear</b></h4>
+                </div>
+
+                        
+    
+        
+    
+    
+    
+    <img class="c-glamour-grid-item-image u-inset" src="https://gearsets.eorzeacollection.com/pvp/late-allagan/late-allagan-scouting/male-front.png" loading="lazy">
+
+            <div class="c-glamour-grid-item-image u-inset u-toggle-hover">
+            <div class="c-glamour-grid-item-image u-inset u-toggle-hover" style="background-image: url('https://gearsets.eorzeacollection.com/pvp/late-allagan/late-allagan-scouting/male-back.png')"></div>
+        </div>
+    
+            </a>
+        </article>
+            <article class="c-glamour-grid-item ">
+            <div class="c-glamour-grid-item-icons u-top">
+                <div class="c-label u-desktop-only-inline" style="margin: 2px;vertical-align: bottom;">
+                    <b>1</b>
+                    <img class="b-info-box-category-icon" src="/resources/icons/ffxiv/ilvl.png" style="width: 10px;">
+                </div>
+                <div class="c-label" style="margin: 2px 0;vertical-align: bottom;">
+                    <b>1</b>
+                    <img class="b-info-box-category-icon" src="/resources/icons/ffxiv/lv.svg" style="width: 10px;">
+                </div>
+                <span id="js-gearset-likes-late-allagan-striking" class="c-glamour-grid-item-icons-counter c-label">158</span>
+                                    <div class="c-tooltip">
+                        <a href="/login">
+                            <div class="c-reaction"><img class="c-reaction-icon c-reaction-icon-disabled" src="/resources/icons/icon-glow-heart.png"></div>
+                        </a>
+                        <div class="c-tooltip-text">you need to be logged in to love</div>
+                    </div>
+                    <div class="c-tooltip">
+                        <a href="/login">
+                            <div class="c-reaction"><img class="c-reaction-icon c-reaction-icon-disabled" src="/resources/icons/icon-glow-star.png"></div>
+                        </a>
+                        <div class="c-tooltip-text">you need to be logged in to save as favorite</div>
+                    </div>
+                            </div>
+
+            <div class="c-glamour-grid-item-icons u-bottom" style="display: flex; flex-wrap: wrap;flex-direction: column;">
+                                                    
+                    
+        
+        <img class="c-set-fitting-icon u-on-image" src="/resources/icons/jobs/job-mnk.png" alt="MNK" title="Monk">            <img class="c-set-fitting-icon u-on-image" src="/resources/icons/jobs/job-sam.png" alt="SAM" title="Samurai">    
+                
+                    
+                                    
+                
+    
+            </div>
+
+                                                <div style="position: absolute; top: 5px; right: 4px; display: flex; flex-direction: row-reverse;">
+                        
+                                                    <div class="c-tooltip">
+                                <img src="/resources/icons/ffxiv/dyed.png" style="width: 20px;">
+                                <div class="c-tooltip-text">Dyeable</div>
+                            </div>
+                        
+                                            </div>
+                            
+            <a class="c-glamour-grid-item-link" href="/gearset/late-allagan-striking">
+                <div class="c-glamour-grid-item-content">
+                    <h3 class="c-glamour-grid-item-content-title has-text-white"><span class="u-rarity-basic">Late Allagan Striking</span> Set</h3>
+                    <div class="c-glamour-grid-item-content-divider"></div>
+                    <h4 class="c-glamour-grid-item-content-author"><b>PVP Gear</b></h4>
+                </div>
+
+                        
+    
+        
+    
+    
+    
+    <img class="c-glamour-grid-item-image u-inset" src="https://gearsets.eorzeacollection.com/pvp/late-allagan/late-allagan-striking/male-front.png" loading="lazy">
+
+            <div class="c-glamour-grid-item-image u-inset u-toggle-hover">
+            <div class="c-glamour-grid-item-image u-inset u-toggle-hover" style="background-image: url('https://gearsets.eorzeacollection.com/pvp/late-allagan/late-allagan-striking/male-back.png')"></div>
+        </div>
+    
+            </a>
+        </article>
+    
+                    </div>
+                </section>
+            
+        </div>
+
+        <div class="l-section-double-side u-for-gallery u-sticky u-desktop-l-only" style="top: 60px">
+            <div style="text-align: right; margin-bottom: 10px">
+                <span class="c-label c-label-primary">Dyeable</span>
+                <span class="c-label"> Untradable</span>
+                <img class="c-label u-no-background" src="/resources/icons/patches/shb.png" style="max-height: 19px; vertical-align: middle;">
+                <span id="js-gearset-likes-late-allagan-maiming" class="c-glamour-grid-item-icons-counter c-label" style="margin-bottom: 4px;">176</span>
+                                    <div class="c-tooltip">
+                        <a href="/login"><div class="c-reaction"><img class="c-reaction-icon c-reaction-icon-disabled" src="/resources/icons/icon-glow-heart.png"></div></a>
+                        <div class="c-tooltip-text">you need to be logged in to love</div>
+                    </div>
+                    <div class="c-tooltip">
+                        <a href="/login"><div class="c-reaction"><img class="c-reaction-icon c-reaction-icon-disabled" src="/resources/icons/icon-glow-star.png"></div></a>
+                        <div class="c-tooltip-text">you need to be logged in to save as favorite</div>
+                    </div>
+                            </div>
+
+            <div class="b-info-box">
+                <div class="b-info-box-category-list" style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 10px; align-items: center">
+                    <div class="b-info-box-category-list-item">
+                        <img class="b-info-box-category-icon" src="/resources/icons/ffxiv/ilvl.png" style="width: 24px; margin: 0 4px">
+                        <b class="b-info-box-category-list-item-main">1</b>
+                    </div>
+
+                    <div class="b-info-box-category-list-item">
+                        <img class="b-info-box-category-icon" src="/resources/icons/ffxiv/lv.svg" style="width: 24px; margin: 0 4px">
+                        <b class="b-info-box-category-list-item-main">1</b>
+                    </div>
+                </div>
+
+                <div class="b-info-box-category">
+                    <img class="b-info-box-category-icon" src="/resources/icons/ffxiv/fc.png">
+                    <span class="b-info-box-category-title">Wearable by:</span><br>
+                </div>
+
+                    <div class="c-set-fitting">
+        <div class="c-set-fitting-group">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-pld.png" alt="PLD" title="Paladin">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-war.png" alt="WAR" title="Warrior">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-drk.png" alt="DRK" title="Dark Knight">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-gnb.png" alt="GNB" title="Gunbreaker">
+
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-whm.png" alt="WHM" title="White Mage">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-sch.png" alt="SCH" title="Scholar">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-ast.png" alt="AST" title="Astrologian">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-sge.png" alt="SGE" title="Sage">
+        </div>
+
+        <div class="c-set-fitting-group">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-mnk.png" alt="MNK" title="Monk">
+            <img class="c-set-fitting-icon " src="/resources/icons/jobs/job-drg.png" alt="DRG" title="Dragoon">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-nin.png" alt="NIN" title="Ninja">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-sam.png" alt="SAM" title="Samurai">
+            <img class="c-set-fitting-icon " src="/resources/icons/jobs/job-rpr.png" alt="RPR" title="Reaper">
+
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-brd.png" alt="BRD" title="Bard">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-mch.png" alt="MCH" title="Machinist">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-dnc.png" alt="DNC" title="Dancer">
+        </div>
+
+        <div class="c-set-fitting-group">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-blm.png" alt="BLM" title="Black Mage">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-smn.png" alt="SMN" title="Summoner">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-rdm.png" alt="RDM" title="Red Mage">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-blu.png" alt="BLU" title="Blue Mage">
+        </div>
+
+        <div class="c-set-fitting-group">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-crp.png" alt="CRP" title="Carpenter">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-bsm.png" alt="BSM" title="Blacksmith">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-arm.png" alt="ARM" title="Armorer">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-gsm.png" alt="GSM" title="Goldsmith">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-ltw.png" alt="LTW" title="Leatherworker">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-wvr.png" alt="WVR" title="Weaver">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-alc.png" alt="ALC" title="Alchemist">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-cul.png" alt="CUL" title="Culinarian">
+        </div>
+
+        <div class="c-set-fitting-group">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-min.png" alt="MIN" title="Miner">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-btn.png" alt="BTN" title="Botanist">
+            <img class="c-set-fitting-icon c-set-fitting-icon-unfit" src="/resources/icons/jobs/job-fsh.png" alt="FSH" title="Fisher">
+        </div>
+    </div>
+
+
+                    <div class="c-set-fitting">
+        <div class="c-set-fitting-group">
+            <img class="c-set-fitting-icon " src="/resources/icons/genders/gender-male.png" alt="Male" title="Male">
+            <img class="c-set-fitting-icon " src="/resources/icons/genders/gender-female.png" alt="Female" title="Female">
+        </div>
+    </div>
+
+            </div>
+
+            
+            
+            
+                                <div class="c-publicity">
+                    <div class="is-flex is-align-items-center is-justify-content-space-between has-text-background-darker">
+                <hr class="has-background-background-darker" style="width: 100%; height: 1px;" />
+                <span class="is-size-7 mx-4">Advertisement</span>
+                <hr class="has-background-background-darker" style="width: 100%; height: 1px;" />
+            </div>
+        
+        <div class="c-publicity-background u-mrec">
+            <!--  [Desktop/Tablet]med_rect_btf -->
+            <div data-pw-desk="med_rect_btf" id="pwDeskMedRectBtf1"></div>
+            <script type="text/javascript">
+                window.ramp.que.push(function () {
+                    window.ramp.addTag("pwDeskMedRectBtf1");
+                })
+            </script>
+            <!--  [Mobile]med_rect_btf -->
+            <div data-pw-mobi="med_rect_btf" id="pwMobiMedRectBtf1"></div>
+            <script type="text/javascript">
+                window.ramp.que.push(function () {
+                    window.ramp.addTag("pwMobiMedRectBtf1");
+                })
+            </script>
+        </div>
+
+                    <div class="is-flex is-align-items-center is-justify-content-space-between has-text-background-darker">
+                <hr class="has-background-background-darker" style="width: 100%; height: 1px;" />
+                <span class="is-size-7 is-flex-shrink-0 mx-4">Become a patron to remove ads</span>
+                <hr class="has-background-background-darker" style="width: 100%; height: 1px;" />
+            </div>
+            </div>
+
+                    </div>
+    </section>
+            </div>
+        </main>
+
+                    <footer class="l-footer has-background-background">
+                <div class="l-footer-wrapper">
+                    <a href="#top" class="l-footer-back-to-top" onclick="window.scrollTo(0,0)">
+                        <span class="l-footer-back-to-top-icon"><?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="438.533px" height="438.533px" viewBox="0 0 438.533 438.533" style="enable-background:new 0 0 438.533 438.533;"
+	 xml:space="preserve">
+<g>
+	<path d="M409.133,109.203c-19.608-33.592-46.205-60.189-79.798-79.796C295.736,9.801,259.058,0,219.273,0
+		c-39.781,0-76.47,9.801-110.063,29.407c-33.595,19.604-60.192,46.201-79.8,79.796C9.801,142.8,0,179.489,0,219.267
+		c0,39.78,9.804,76.463,29.407,110.062c19.607,33.592,46.204,60.189,79.799,79.798c33.597,19.605,70.283,29.407,110.063,29.407
+		s76.47-9.802,110.065-29.407c33.593-19.602,60.189-46.206,79.795-79.798c19.603-33.596,29.403-70.284,29.403-110.062
+		C438.533,179.485,428.732,142.795,409.133,109.203z M361.74,259.517l-29.123,29.129c-3.621,3.614-7.901,5.424-12.847,5.424
+		c-4.948,0-9.236-1.81-12.847-5.424l-87.654-87.653l-87.646,87.653c-3.616,3.614-7.898,5.424-12.847,5.424
+		c-4.95,0-9.233-1.81-12.85-5.424l-29.12-29.129c-3.617-3.607-5.426-7.898-5.426-12.847c0-4.942,1.809-9.227,5.426-12.848
+		l129.62-129.616c3.617-3.617,7.898-5.424,12.847-5.424s9.238,1.807,12.846,5.424L361.74,233.822
+		c3.613,3.621,5.424,7.905,5.424,12.848C367.164,251.618,365.357,255.909,361.74,259.517z"/>
+</g>
+</svg>
+</span>
+                        <span class="l-footer-back-to-top-text">TOP</span>
+                    </a>
+                    <div class="l-footer-message-wrapper">
+                        <div class="l-footer-social-media">
+                            <a href="https://www.facebook.com/ffxiveorzeacollection" target="_blank">
+                                <img class="l-footer-social-media-icon" src="/resources/social/logos/facebook.svg" alt="facebook">
+                            </a>
+                            <a href="https://twitter.com/eorzeacollect" target="_blank">
+                                <img class="l-footer-social-media-icon" src="/resources/social/logos/twitter.svg" alt="twitter">
+                            </a>
+                            <a href="https://www.instagram.com/eorzea.collection/" target="_blank">
+                                <img class="l-footer-social-media-icon" src="/resources/social/logos/instagram.svg" alt="instagram">
+                            </a>
+                            <a href="https://www.reddit.com/r/EorzeaCollection/" target="_blank">
+                                <img class="l-footer-social-media-icon" src="/resources/social/logos/reddit.svg" alt="reddit">
+                            </a>
+                            <a href="https://discord.gg/eorzeacollection" target="_blank">
+                                <img class="l-footer-social-media-icon" src="/resources/social/logos/discord.svg" alt="discord" style="width: 24px">
+                            </a>
+                            <a href="https://www.patreon.com/ffxiveorzeacollection" target="_blank">
+                                <img class="l-footer-social-media-icon" src="/resources/social/logos/patreon.svg" alt="patreon">
+                            </a>
+
+                            <a href="https://eorzeacollect.redbubble.com" target="_blank">
+                                <img class="l-footer-social-media-icon" src="/resources/social/logos/redbubble.svg" alt="redbubble">
+                            </a>
+                        </div>
+                        <div class="l-footer-divider"></div>
+                        <div class="l-footer-message">
+                            thank you<br>
+                            <b>for being</b>
+                            <span class="l-footer-message-bold">glamourous</span>
+                        </div>
+                    </div>
+                    <a href="/">
+                        <span class="l-footer-logo mb-1">
+                            <?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" width="374px" height="40px" x="0px" y="0px" viewBox="0 0 374 40" xmlns="http://www.w3.org/2000/svg">
+  <title>Eorzea Collection</title>
+  <g id="symbol" transform="matrix(0.527817, 0, 0, 0.527817, -2.019178, -6.634438)">
+    <path d="M49.022,14.497v71.929L7.493,62.45L49.022,14.497z M50.979,86.426V14.497L92.507,62.45L50.979,86.426z" style=""/>
+    <path d="M 163.898 34.269 L 142.625 34.269 L 142.625 47.287 L 161.476 47.287 L 161.476 57.645 L 142.625 57.645 L 142.625 70.623 L 163.898 70.623 L 163.898 81.138 L 130.642 81.138 L 130.642 23.792 L 163.898 23.792 L 163.898 34.269 Z M 187.798 81.931 C 174.82 81.931 165.455 74.035 165.455 60.701 C 165.455 47.446 174.742 39.547 187.798 39.547 C 200.933 39.547 210.181 47.446 210.181 60.701 C 210.181 74.035 200.895 81.931 187.798 81.931 Z M 187.679 72.843 C 194.306 72.843 198.83 68.002 198.83 60.699 C 198.83 53.397 194.306 48.556 187.679 48.556 C 181.288 48.556 176.804 53.397 176.804 60.699 C 176.804 68.002 181.288 72.843 187.679 72.843 Z M 223.761 46.809 C 225.826 43.198 231.182 39.864 237.096 39.864 L 237.096 50.062 C 228.445 50.062 224.318 52.603 224.318 61.254 L 224.318 81.136 L 212.809 81.136 L 212.809 40.339 L 223.761 40.339 L 223.761 46.809 Z M 267.705 40.341 L 249.767 72.328 L 267.15 72.328 L 267.15 81.138 L 233.536 81.138 L 251.394 49.151 L 234.924 49.151 L 234.924 40.341 L 267.705 40.341 Z M 308.035 60.144 L 307.916 62.883 L 277.674 62.883 C 278.151 69.668 282.674 72.923 288.111 72.923 C 292.2 72.923 295.373 71.019 296.921 67.407 L 307.398 68.953 C 304.7 77.208 297.359 81.931 288.191 81.931 C 275.016 81.931 266.403 74.152 266.403 60.738 C 266.403 47.325 275.253 39.468 287.833 39.468 C 299.382 39.468 307.993 45.856 308.033 60.144 L 308.035 60.144 Z M 287.914 47.565 C 282.716 47.565 279.104 49.985 277.992 55.422 L 296.724 55.422 C 296.129 50.223 292.598 47.565 287.914 47.565 Z M 344.316 70.066 C 344.316 75.065 344.792 78.241 345.307 80.025 L 345.307 81.138 L 334.633 81.138 L 333.72 76.693 C 330.664 80.384 325.386 81.931 320.625 81.931 C 314.194 81.931 307.925 79.074 307.925 70.581 C 307.925 62.127 314.234 59.27 322.767 57.406 L 329.474 55.898 C 332.371 55.223 333.404 54.231 333.404 52.563 C 333.404 48.556 329.751 47.444 326.538 47.444 C 322.409 47.444 319.276 49.072 318.561 53.675 L 308.44 51.849 C 310.147 43.397 316.337 39.547 327.172 39.547 C 335.347 39.547 344.316 41.969 344.316 54.27 L 344.316 70.066 Z M 324.196 74.192 C 329.633 74.192 333.999 70.581 333.999 62.485 L 324.315 65.223 C 321.14 65.977 318.838 67.089 318.838 69.827 C 318.838 72.763 321.259 74.192 324.196 74.192 Z M 391.719 81.931 C 374.854 81.931 362.391 70.462 362.391 52.444 C 362.391 34.426 374.852 22.998 391.719 22.998 C 404.498 22.998 414.737 29.546 418.825 40.421 L 407.714 44.468 C 405.173 37.801 399.101 33.951 391.719 33.951 C 381.837 33.951 374.259 40.857 374.259 52.444 C 374.259 64.033 381.837 70.979 391.719 70.979 C 399.101 70.979 405.173 67.089 407.714 60.422 L 418.825 64.469 C 414.737 75.344 404.498 81.931 391.719 81.931 Z M 440.227 81.931 C 427.249 81.931 417.884 74.035 417.884 60.701 C 417.884 47.446 427.169 39.547 440.227 39.547 C 453.362 39.547 462.609 47.446 462.609 60.701 C 462.609 74.035 453.324 81.931 440.227 81.931 Z M 440.107 72.843 C 446.735 72.843 451.259 68.002 451.259 60.699 C 451.259 53.397 446.735 48.556 440.107 48.556 C 433.717 48.556 429.232 53.397 429.232 60.699 C 429.232 68.002 433.717 72.843 440.107 72.843 Z M 465.237 81.138 L 465.237 20.181 L 476.785 20.181 L 476.785 81.138 L 465.237 81.138 Z M 482.749 81.138 L 482.749 20.181 L 494.297 20.181 L 494.297 81.138 L 482.749 81.138 Z M 538.636 60.144 L 538.517 62.883 L 508.275 62.883 C 508.752 69.668 513.277 72.923 518.712 72.923 C 522.801 72.923 525.976 71.019 527.522 67.407 L 537.999 68.953 C 535.301 77.208 527.96 81.931 518.792 81.931 C 505.617 81.931 497.004 74.152 497.004 60.738 C 497.004 47.325 505.854 39.468 518.436 39.468 C 529.983 39.468 538.594 45.856 538.634 60.144 L 538.636 60.144 Z M 518.515 47.565 C 513.317 47.565 509.705 49.985 508.595 55.422 L 527.325 55.422 C 526.73 50.223 523.199 47.565 518.515 47.565 Z M 559.916 81.892 C 547.097 81.892 538.049 73.358 538.049 60.699 C 538.049 47.999 547.097 39.547 559.916 39.547 C 570.234 39.547 577.973 44.905 579.957 54.549 L 569.4 55.699 C 568.131 50.818 564.599 48.556 559.797 48.556 C 553.645 48.556 549.479 53.397 549.479 60.699 C 549.479 67.963 553.645 72.843 559.797 72.843 C 564.599 72.843 568.131 70.541 569.4 65.7 L 579.957 66.85 C 577.973 76.494 570.035 81.892 559.916 81.892 Z M 597.429 81.138 C 589.493 81.138 584.968 76.534 584.968 68.398 L 584.968 49.111 L 576.952 49.111 L 576.952 40.341 L 579.531 40.341 C 583.858 40.341 586.238 38.674 586.238 32.562 L 586.238 27.166 L 596.556 27.166 L 596.556 40.341 L 604.97 40.341 L 604.97 49.111 L 596.556 49.111 L 596.556 67.169 C 596.556 70.82 598.342 72.447 601.279 72.447 L 604.97 72.447 L 604.97 81.138 L 597.429 81.138 Z M 613.789 34.229 C 610.178 34.229 607.162 31.293 607.162 27.642 C 607.162 24.031 610.178 21.094 613.789 21.094 C 617.32 21.094 620.337 24.031 620.337 27.642 C 620.337 31.293 617.32 34.229 613.789 34.229 Z M 607.955 81.138 L 607.955 40.341 L 619.465 40.341 L 619.465 81.138 L 607.955 81.138 Z M 644.438 81.931 C 631.46 81.931 622.095 74.035 622.095 60.701 C 622.095 47.446 631.38 39.547 644.438 39.547 C 657.573 39.547 666.821 47.446 666.821 60.701 C 666.821 74.035 657.533 81.931 644.438 81.931 Z M 644.317 72.843 C 650.944 72.843 655.468 68.002 655.468 60.699 C 655.468 53.397 650.944 48.556 644.317 48.556 C 637.928 48.556 633.443 53.397 633.443 60.699 C 633.443 68.002 637.928 72.843 644.317 72.843 Z M 693.538 39.547 C 703.339 39.547 708.737 44.627 708.737 53.675 L 708.737 81.138 L 697.269 81.138 L 697.269 56.135 C 697.269 50.699 693.894 48.713 689.965 48.713 C 685.244 48.713 680.958 51.095 680.879 58.635 L 680.879 81.136 L 669.448 81.136 L 669.448 40.341 L 680.879 40.341 L 680.879 44.866 C 683.736 41.491 688.141 39.547 693.538 39.547 Z" style=""/>
+  </g>
+</svg>
+                        </span>
+                    </a>
+                    <div class="l-footer-copyright">
+                        <div>Eorzea Collection © 2016-2024. FINAL FANTASY XIV © 2010-2024 SQUARE ENIX CO., LTD. All Rights Reserved.</div><br>
+                        <span data-ccpa-link="1"></span>
+                        <a href="/privacy-policy">
+                            Privacy Policy
+                        </a>
+                    </div>
+                </div>
+            </footer>
+        
+        <script src="/build/js/eorzea-collection.6e1b9cd2.js"></script>
+
+                    <script async src="//cdn.intergient.com/ramp_core.js"></script>
+        
+            <script src="https://img.finalfantasyxiv.com/lds/pc/global/js/eorzeadb/loader.js?v2"></script>
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"850479b0ad513cec","r":1,"version":"2024.2.0","token":"c5220d29cecc48ce998390fe70509a03"}' crossorigin="anonymous"></script>
+</body>
+</html>
